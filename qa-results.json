@@ -1,0 +1,3290 @@
+{
+  "config": {
+    "argv": [
+      "/usr/bin/node",
+      "/home/user/the-world-of-you/node_modules/.bin/playwright",
+      "test",
+      "--list"
+    ],
+    "configFile": "/home/user/the-world-of-you/playwright.config.ts",
+    "rootDir": "/home/user/the-world-of-you/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/user/the-world-of-you/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "",
+        "name": "",
+        "testDir": "/home/user/the-world-of-you/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.spec.ts"
+        ],
+        "timeout": 360000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/home/user/the-world-of-you/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "name": "",
+        "testDir": "/home/user/the-world-of-you/tests",
+        "snapshotDir": "/home/user/the-world-of-you/tests",
+        "testIgnore": [],
+        "testMatch": "**/*.spec.ts",
+        "timeout": 360000,
+        "use": {
+          "baseURL": "http://localhost:4181",
+          "viewport": {
+            "width": 1100,
+            "height": 640
+          },
+          "reducedMotion": "reduce",
+          "launchOptions": {
+            "executablePath": "/tmp/chromium",
+            "args": [
+              "--no-sandbox",
+              "--use-gl=angle",
+              "--use-angle=swiftshader",
+              "--enable-unsafe-swiftshader",
+              "--disable-setuid-sandbox",
+              "--disable-dev-shm-usage",
+              "--ignore-gpu-blocklist",
+              "--single-process",
+              "--no-zygote",
+              "--in-process-gpu"
+            ]
+          },
+          "storageState": {
+            "cookies": [],
+            "origins": [
+              {
+                "origin": "http://localhost:4181",
+                "localStorage": [
+                  {
+                    "name": "woy-quality",
+                    "value": "low"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "qa-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.65.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "cinematic.spec.ts",
+      "file": "cinematic.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "airflow classifier rejects quiet, tonal and low-band signals",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b496d51900683cab0ab4-eb4debd38c3e3cd3fb8d",
+          "file": "cinematic.spec.ts",
+          "line": 11,
+          "column": 1
+        },
+        {
+          "title": "garden: 3D rendering, ten wishes, planting, replay and removal",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b496d51900683cab0ab4-85c83f9aa5cdfddc34c7",
+          "file": "cinematic.spec.ts",
+          "line": 18,
+          "column": 1
+        },
+        {
+          "title": "cake: all baking stages, light, manual wish/blowout and replay",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b496d51900683cab0ab4-2327ea371684816fba9b",
+          "file": "cinematic.spec.ts",
+          "line": 38,
+          "column": 1
+        },
+        {
+          "title": "letters: folded paper renders; open, fold, reopen, escape and focus return",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b496d51900683cab0ab4-2a02ce1bbb143c456ae1",
+          "file": "cinematic.spec.ts",
+          "line": 55,
+          "column": 1
+        },
+        {
+          "title": "all 17 existing gifts open, run their primary control, reset and close",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b496d51900683cab0ab4-cc7d3f49c3bee82ff169",
+          "file": "cinematic.spec.ts",
+          "line": 69,
+          "column": 1
+        },
+        {
+          "title": "microphone denial is recoverable; manual fallback still works",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b496d51900683cab0ab4-61c3e85d0fc6bd425af0",
+          "file": "cinematic.spec.ts",
+          "line": 85,
+          "column": 1
+        },
+        {
+          "title": "synthetic broadband input triggers calibrated mic and stops tracks",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b496d51900683cab0ab4-2be3fea9bcfdd9f37c31",
+          "file": "cinematic.spec.ts",
+          "line": 96,
+          "column": 1
+        },
+        {
+          "title": "responsive portrait/landscape/tablet: no horizontal overflow, keyboard wish control",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b496d51900683cab0ab4-ab9ac5e37dba0ab4c9d9",
+          "file": "cinematic.spec.ts",
+          "line": 120,
+          "column": 1
+        },
+        {
+          "title": "WebGL failure leaves garden content and planting available",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b496d51900683cab0ab4-daf307255e820fbe19a7",
+          "file": "cinematic.spec.ts",
+          "line": 130,
+          "column": 1
+        },
+        {
+          "title": "normal-motion shader and bloom render; inactive garden stops rendering",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b496d51900683cab0ab4-a8578a20a023fd24d34a",
+          "file": "cinematic.spec.ts",
+          "line": 141,
+          "column": 1
+        },
+        {
+          "title": "cancelling a pending microphone permission stops a late stream",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b496d51900683cab0ab4-5c8d3e0370b016a48589",
+          "file": "cinematic.spec.ts",
+          "line": 158,
+          "column": 1
+        },
+        {
+          "title": "all twelve chapter anchors exist and all local anchor links resolve",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b496d51900683cab0ab4-98f9bd91dedc1cddab70",
+          "file": "cinematic.spec.ts",
+          "line": 172,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "content-flows.spec.ts",
+      "file": "content-flows.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Gift Atelier: the grid intro, progress label, dedication, replay, back and close wording",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "621b6e3e58f2d4b80305-c03df59fcf0e42a80b4e",
+          "file": "content-flows.spec.ts",
+          "line": 36,
+          "column": 1
+        },
+        {
+          "title": "all 17 gifts show their own dedication, and no template text reaches any of them",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "621b6e3e58f2d4b80305-b06a1a5ec938bc50c244",
+          "file": "content-flows.spec.ts",
+          "line": 54,
+          "column": 1
+        },
+        {
+          "title": "gift 01 and the Letter Room: the main letter, the earlier letters kept, the seven Open-when letters",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "621b6e3e58f2d4b80305-6cc1d27664600ab6f77f",
+          "file": "content-flows.spec.ts",
+          "line": 66,
+          "column": 1
+        },
+        {
+          "title": "gift 02: all seventeen reasons, one by one and as a list",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "621b6e3e58f2d4b80305-00a9bd35272c0bd42096",
+          "file": "content-flows.spec.ts",
+          "line": 108,
+          "column": 1
+        },
+        {
+          "title": "gifts 03, 04 and 08: the long dedication and its reveal appear when the visitor reveals them",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "621b6e3e58f2d4b80305-5520a80ccb9e3c165ffe",
+          "file": "content-flows.spec.ts",
+          "line": 124,
+          "column": 1
+        },
+        {
+          "title": "gift 07: the sky of wishes (every distinct wish of both packs), the ten lanterns and the full lists",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "621b6e3e58f2d4b80305-cf8e957b374180c44646",
+          "file": "content-flows.spec.ts",
+          "line": 148,
+          "column": 1
+        },
+        {
+          "title": "gifts 06, 05 and 12: opening, empty and closing copy; empty playlist wording",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "621b6e3e58f2d4b80305-38432494040d3eb9c317",
+          "file": "content-flows.spec.ts",
+          "line": 182,
+          "column": 1
+        },
+        {
+          "title": "gift 09 reads the seven Open-when letters; gifts 14 and 15 stay empty slots and say so in the pack's wording",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "621b6e3e58f2d4b80305-74290be959f86b34b450",
+          "file": "content-flows.spec.ts",
+          "line": 200,
+          "column": 1
+        },
+        {
+          "title": "Future Postcards: seven messages, each readable on the reverse, with the visitor's own line",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "621b6e3e58f2d4b80305-b9e1d373aa53556f04d0",
+          "file": "content-flows.spec.ts",
+          "line": 221,
+          "column": 1
+        },
+        {
+          "title": "Birthday Garden: seven stages, each with the pack's narration",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "621b6e3e58f2d4b80305-2d35bfc628588c4a8881",
+          "file": "content-flows.spec.ts",
+          "line": 245,
+          "column": 1
+        },
+        {
+          "title": "Music Lounge, Memory Gallery and finale use the pack's welcome, empty-state and thank-you copy",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "621b6e3e58f2d4b80305-406e03669968a23f2a7d",
+          "file": "content-flows.spec.ts",
+          "line": 258,
+          "column": 1
+        },
+        {
+          "title": "Scrapbook: 17 chapters and three verified dates between the covers; the empty pages carry the pack's lines",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "621b6e3e58f2d4b80305-47f6ace660d53b97a019",
+          "file": "content-flows.spec.ts",
+          "line": 272,
+          "column": 1
+        },
+        {
+          "title": "no template or slot text anywhere on the page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "621b6e3e58f2d4b80305-c55a0cbd0c6652351037",
+          "file": "content-flows.spec.ts",
+          "line": 288,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "content-pack-verbatim.spec.ts",
+      "file": "content-pack-verbatim.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "counts match the pack",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c0379817667be5ca39f5-d78d79a5ab50ddda0233",
+          "file": "content-pack-verbatim.spec.ts",
+          "line": 31,
+          "column": 1
+        },
+        {
+          "title": "every cover string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c0379817667be5ca39f5-93fc412208c745614c7b",
+          "file": "content-pack-verbatim.spec.ts",
+          "line": 45,
+          "column": 3
+        },
+        {
+          "title": "every letter string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c0379817667be5ca39f5-c513619852fa50e22f8b",
+          "file": "content-pack-verbatim.spec.ts",
+          "line": 45,
+          "column": 3
+        },
+        {
+          "title": "every reasons string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c0379817667be5ca39f5-827533208b6ceba291e0",
+          "file": "content-pack-verbatim.spec.ts",
+          "line": 45,
+          "column": 3
+        },
+        {
+          "title": "every wishes string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c0379817667be5ca39f5-0bdbed83ebbf26272036",
+          "file": "content-pack-verbatim.spec.ts",
+          "line": 45,
+          "column": 3
+        },
+        {
+          "title": "every postcards string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c0379817667be5ca39f5-460a6f6ddddd7e54ec71",
+          "file": "content-pack-verbatim.spec.ts",
+          "line": 45,
+          "column": 3
+        },
+        {
+          "title": "every dedications string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c0379817667be5ca39f5-c219e93329b774835a1d",
+          "file": "content-pack-verbatim.spec.ts",
+          "line": 45,
+          "column": 3
+        },
+        {
+          "title": "every extended string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c0379817667be5ca39f5-238341d64eee9352e930",
+          "file": "content-pack-verbatim.spec.ts",
+          "line": 45,
+          "column": 3
+        },
+        {
+          "title": "every garden string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c0379817667be5ca39f5-aeff70f0e9cb318d9163",
+          "file": "content-pack-verbatim.spec.ts",
+          "line": 45,
+          "column": 3
+        },
+        {
+          "title": "every cinema string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c0379817667be5ca39f5-3502b53dfb48a64ca2ea",
+          "file": "content-pack-verbatim.spec.ts",
+          "line": 45,
+          "column": 3
+        },
+        {
+          "title": "every radio string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c0379817667be5ca39f5-a3dc49c822bd03dd3341",
+          "file": "content-pack-verbatim.spec.ts",
+          "line": 45,
+          "column": 3
+        },
+        {
+          "title": "every microcopy string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c0379817667be5ca39f5-430fed3d919ffc92a6a6",
+          "file": "content-pack-verbatim.spec.ts",
+          "line": 45,
+          "column": 3
+        },
+        {
+          "title": "every checklist string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c0379817667be5ca39f5-42c1136c85dd9fb398d9",
+          "file": "content-pack-verbatim.spec.ts",
+          "line": 45,
+          "column": 3
+        },
+        {
+          "title": "every notes string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c0379817667be5ca39f5-c3eff6fc94c2f53b76c8",
+          "file": "content-pack-verbatim.spec.ts",
+          "line": 45,
+          "column": 3
+        },
+        {
+          "title": "nothing quoted or numbered in the PDF was left out",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c0379817667be5ca39f5-9c8f25a93c02844f31df",
+          "file": "content-pack-verbatim.spec.ts",
+          "line": 51,
+          "column": 1
+        },
+        {
+          "title": "the English source files keep pack 1 as the owner wrote it, and no template or slot text can come from them",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "c0379817667be5ca39f5-12bdf3e11f87e14ad1da",
+          "file": "content-pack-verbatim.spec.ts",
+          "line": 75,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "i18n-content.spec.ts",
+      "file": "i18n-content.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "en: the amount of content is what the owner wrote",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2e6de4a0137f29e9ed14-a7babed7902e52eb6ebf",
+          "file": "i18n-content.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "hinglish: the amount of content is what the owner wrote",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2e6de4a0137f29e9ed14-4ea4bbc300c4da8ad90f",
+          "file": "i18n-content.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "hi: the amount of content is what the owner wrote",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2e6de4a0137f29e9ed14-beb49f5ff83640e2628d",
+          "file": "i18n-content.spec.ts",
+          "line": 35,
+          "column": 3
+        },
+        {
+          "title": "the three languages have exactly the same structure (same keys, same list lengths)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2e6de4a0137f29e9ed14-a5729a2fe1b3c920449d",
+          "file": "i18n-content.spec.ts",
+          "line": 57,
+          "column": 1
+        },
+        {
+          "title": "no text is missing: what is empty in English is empty everywhere, and what is empty is exactly the owner's open slots",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2e6de4a0137f29e9ed14-31aabfdb04f8d0639c49",
+          "file": "i18n-content.spec.ts",
+          "line": 62,
+          "column": 1
+        },
+        {
+          "title": "scripts: English and Hinglish are Roman, Hindi is Devanagari",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2e6de4a0137f29e9ed14-e99f777f3e0973368712",
+          "file": "i18n-content.spec.ts",
+          "line": 77,
+          "column": 1
+        },
+        {
+          "title": "no template marker, no placeholder and no debug text can reach a visitor, in any language",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2e6de4a0137f29e9ed14-8d3bfa9c6d1c8039cbe9",
+          "file": "i18n-content.spec.ts",
+          "line": 92,
+          "column": 1
+        },
+        {
+          "title": "the site never claims 1,000 wishes: every count it shows is the real number",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2e6de4a0137f29e9ed14-220957ceaad5c2951d19",
+          "file": "i18n-content.spec.ts",
+          "line": 101,
+          "column": 1
+        },
+        {
+          "title": "every English-only wish of the owner has a Hinglish and a Hindi version (marked as agent-written), and none is invented",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2e6de4a0137f29e9ed14-057bad1177d82175950e",
+          "file": "i18n-content.spec.ts",
+          "line": 119,
+          "column": 1
+        },
+        {
+          "title": "names, dates, urls, ids and filenames are the same in every language (and are not translated)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2e6de4a0137f29e9ed14-6d835ea53b5d8282ebaf",
+          "file": "i18n-content.spec.ts",
+          "line": 133,
+          "column": 1
+        },
+        {
+          "title": "dates and numbers are formatted by Intl for the language, never shifted by the visitor's time zone",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2e6de4a0137f29e9ed14-79d8e01f1a186f25734e",
+          "file": "i18n-content.spec.ts",
+          "line": 150,
+          "column": 1
+        },
+        {
+          "title": "text the owner wrote in one language only is shown unchanged in all three (never translated, never lost)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2e6de4a0137f29e9ed14-d69d220a233f2a0fcdf5",
+          "file": "i18n-content.spec.ts",
+          "line": 166,
+          "column": 1
+        },
+        {
+          "title": "the owner's PDF is shown in the owner's own languages: the main letter, the 17 reasons and the 25 unique wishes come from the PDF in all three",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2e6de4a0137f29e9ed14-52fe174091b41d4a77e7",
+          "file": "i18n-content.spec.ts",
+          "line": 181,
+          "column": 1
+        },
+        {
+          "title": "every piece of text a native reader has not checked is marked as agent-written, and the audit can count them",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "2e6de4a0137f29e9ed14-d25ee575b4d2ee6bb811",
+          "file": "i18n-content.spec.ts",
+          "line": 194,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "i18n-structure.spec.ts",
+      "file": "i18n-structure.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "the three dictionaries have exactly the same keys, none empty",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "df03f165508dfcca3f7a-0ae5750426c5909b5a20",
+          "file": "i18n-structure.spec.ts",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "keys are stable semantic names, never the text itself",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "df03f165508dfcca3f7a-d2d299240c4005425c27",
+          "file": "i18n-structure.spec.ts",
+          "line": 37,
+          "column": 1
+        },
+        {
+          "title": "every {placeholder} of the English text is in the Hinglish and Hindi text, and nothing else",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "df03f165508dfcca3f7a-d1d24e2d46fcd908f0af",
+          "file": "i18n-structure.spec.ts",
+          "line": 44,
+          "column": 1
+        },
+        {
+          "title": "scripts: English and Hinglish are Roman, Hindi is Devanagari",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "df03f165508dfcca3f7a-3c6f37e58f5a11a7e333",
+          "file": "i18n-structure.spec.ts",
+          "line": 52,
+          "column": 1
+        },
+        {
+          "title": "the selector offers exactly three options, with the right tags and scripts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "df03f165508dfcca3f7a-37771c37a699f3d1a667",
+          "file": "i18n-structure.spec.ts",
+          "line": 62,
+          "column": 1
+        },
+        {
+          "title": "no dictionary key is dead: every key is used by a component, a hook or a 3D scene",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "df03f165508dfcca3f7a-80fa1372d12b539d9e12",
+          "file": "i18n-structure.spec.ts",
+          "line": 106,
+          "column": 1
+        },
+        {
+          "title": "a key with a {placeholder} is only read by a direct t(key, params) or rich(key, values) call, so TypeScript checks its parameters",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "df03f165508dfcca3f7a-b273f757010f0b0b778c",
+          "file": "i18n-structure.spec.ts",
+          "line": 112,
+          "column": 1
+        },
+        {
+          "title": "translate() fills placeholders and leaves nothing behind",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "df03f165508dfcca3f7a-88b8cf6fb79941ba4afd",
+          "file": "i18n-structure.spec.ts",
+          "line": 123,
+          "column": 1
+        },
+        {
+          "title": "no user-facing word is written into a component (JSX text, aria-label, title, alt, placeholder, alert/confirm)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "df03f165508dfcca3f7a-4d8dec911c8cddff6959",
+          "file": "i18n-structure.spec.ts",
+          "line": 135,
+          "column": 1
+        },
+        {
+          "title": "every 3D scene that draws words is rebuilt when the language changes (TEXT_KINDS = the scene files that call sceneText())",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "df03f165508dfcca3f7a-0eda6e7dd7d3c4c02eea",
+          "file": "i18n-structure.spec.ts",
+          "line": 140,
+          "column": 1
+        },
+        {
+          "title": "font stacks: every Devanagari word has a bundled face (no tofu boxes), in CSS and in canvas text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "df03f165508dfcca3f7a-aa7ea7d7fb01d7c4b7aa",
+          "file": "i18n-structure.spec.ts",
+          "line": 149,
+          "column": 1
+        },
+        {
+          "title": "the Devanagari fonts are bundled, referenced by language.css, and each has its SIL OFL licence text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "df03f165508dfcca3f7a-ae7f5f13bb1ad23a7ea5",
+          "file": "i18n-structure.spec.ts",
+          "line": 175,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "i18n-switch.spec.ts",
+      "file": "i18n-switch.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "English is the default; the selector shows exactly three options and says which one is on",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-4477858d934c9d92a0c5",
+          "file": "i18n-switch.spec.ts",
+          "line": 59,
+          "column": 1
+        },
+        {
+          "title": "the invitation has its own selector, always in step with the header's",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-80c936d38dde37c46ffa",
+          "file": "i18n-switch.spec.ts",
+          "line": 78,
+          "column": 1
+        },
+        {
+          "title": "the switch is atomic: one commit changes <html lang>, the title, the headings and the aria-labels together, with no reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-ee9f4bbeaebfddad7adf",
+          "file": "i18n-switch.spec.ts",
+          "line": 92,
+          "column": 1
+        },
+        {
+          "title": "Hindi switches the script, the <html> tags and the fonts; and back to English restores everything",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-71b67d23aa7530402dfb",
+          "file": "i18n-switch.spec.ts",
+          "line": 125,
+          "column": 1
+        },
+        {
+          "title": "the choice is remembered: a second visit opens in the language that was chosen",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-041e6a2081e36fac1a72",
+          "file": "i18n-switch.spec.ts",
+          "line": 143,
+          "column": 1
+        },
+        {
+          "title": "?lang= wins over the saved choice and follows the visitor's switches; an unknown value is ignored",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-52cc77c0536f3fca35e4",
+          "file": "i18n-switch.spec.ts",
+          "line": 154,
+          "column": 1
+        },
+        {
+          "title": "every section of the page, in every language, is the owner's content for that language",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-5e93faa28c5f994f352f",
+          "file": "i18n-switch.spec.ts",
+          "line": 166,
+          "column": 1
+        },
+        {
+          "title": "an open gift stays open when the language changes, is re-read in the new language, and the progress is kept",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-ef69c24df77a72407776",
+          "file": "i18n-switch.spec.ts",
+          "line": 182,
+          "column": 1
+        },
+        {
+          "title": "an open letter keeps its place and is re-read in the new language",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-1d88134ed04c2df625fb",
+          "file": "i18n-switch.spec.ts",
+          "line": 213,
+          "column": 1
+        },
+        {
+          "title": "text the visitor typed keeps its own language when the site switches",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-13bc42b9d798fcf080d3",
+          "file": "i18n-switch.spec.ts",
+          "line": 236,
+          "column": 1
+        },
+        {
+          "title": "the scrapbook stays on the same page, and its words change",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-035d025f7d7882e9da47",
+          "file": "i18n-switch.spec.ts",
+          "line": 256,
+          "column": 1
+        },
+        {
+          "title": "the sound switch keeps its state and changes its name",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-f6db7b851c54138b53fb",
+          "file": "i18n-switch.spec.ts",
+          "line": 287,
+          "column": 1
+        },
+        {
+          "title": "scroll position and the reading line are kept, even though the translations have different lengths",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-1a3a9cf366cd03a48927",
+          "file": "i18n-switch.spec.ts",
+          "line": 304,
+          "column": 1
+        },
+        {
+          "title": "focus stays on the selector: arrow keys, Home and End move between the three options and switch",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-a510914bd7e124e2e013",
+          "file": "i18n-switch.spec.ts",
+          "line": 327,
+          "column": 1
+        },
+        {
+          "title": "a screen reader is told about the change, once, in the new language",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-ef93842708196f397fe2",
+          "file": "i18n-switch.spec.ts",
+          "line": 355,
+          "column": 1
+        },
+        {
+          "title": "the theme follows the language: violet and gold, rose and amber, indigo and marigold",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-6b7c3ec74bbe06c67446",
+          "file": "i18n-switch.spec.ts",
+          "line": 368,
+          "column": 1
+        },
+        {
+          "title": "with motion allowed the switch is animated: text and a wash in the new colours go out, ONE commit, text comes in; no reload",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-b83b67fed3b8eda470c2",
+          "file": "i18n-switch.spec.ts",
+          "line": 387,
+          "column": 1
+        },
+        {
+          "title": "reduced motion: the language changes without the animation (only the colours fade); with motion it waits for the slide-out",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-1e695793f9502fab04ae",
+          "file": "i18n-switch.spec.ts",
+          "line": 418,
+          "column": 1
+        },
+        {
+          "title": "en: no {placeholder}, template marker, raw key or \"undefined\" anywhere on the page, in the menu, or in any of the 17 gifts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-78a54b8ab425bcf49d44",
+          "file": "i18n-switch.spec.ts",
+          "line": 466,
+          "column": 3
+        },
+        {
+          "title": "hinglish: no {placeholder}, template marker, raw key or \"undefined\" anywhere on the page, in the menu, or in any of the 17 gifts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-adccedca2509275f05f5",
+          "file": "i18n-switch.spec.ts",
+          "line": 466,
+          "column": 3
+        },
+        {
+          "title": "hi: no {placeholder}, template marker, raw key or \"undefined\" anywhere on the page, in the menu, or in any of the 17 gifts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-898ce9a80cd8a8ddc489",
+          "file": "i18n-switch.spec.ts",
+          "line": 466,
+          "column": 3
+        },
+        {
+          "title": "no paragraph is in the page twice (a DOM check for the ghost text seen in software-rendered screenshots: it is not a copy in the page)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-28f247c6b3ff2c64ef8d",
+          "file": "i18n-switch.spec.ts",
+          "line": 504,
+          "column": 1
+        },
+        {
+          "title": "Hindi: every piece of Devanagari text has a bundled Devanagari face (no tofu boxes, whatever the device has installed)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-f896829e58173ff68998",
+          "file": "i18n-switch.spec.ts",
+          "line": 521,
+          "column": 1
+        },
+        {
+          "title": "English and Hinglish pages contain no Devanagari except the selector's own label for Hindi",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-78e433d9b45c2b7264a2",
+          "file": "i18n-switch.spec.ts",
+          "line": 545,
+          "column": 1
+        },
+        {
+          "title": "each language names the page: <html lang>, title, description and the social card text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-c0409a1c69aaa16be183",
+          "file": "i18n-switch.spec.ts",
+          "line": 561,
+          "column": 1
+        },
+        {
+          "title": "counters on the page are the real counts, in the words of the language",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-d52a4c14f4df152d4cba",
+          "file": "i18n-switch.spec.ts",
+          "line": 574,
+          "column": 1
+        },
+        {
+          "title": "the verified dates are formatted for the language and never shifted by the visitor's time zone",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-a5d9c8c6fea09945b8b5",
+          "file": "i18n-switch.spec.ts",
+          "line": 591,
+          "column": 1
+        },
+        {
+          "title": "phone (390 px): the selector is on the first screen and in the header, nothing overflows sideways, in any language",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-057631aa3459a3cf510c",
+          "file": "i18n-switch.spec.ts",
+          "line": 606,
+          "column": 1
+        },
+        {
+          "title": "phone (390 px): an open gift has the selector next to the close button, and it fits",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-43f207aefec5c44383bc",
+          "file": "i18n-switch.spec.ts",
+          "line": 636,
+          "column": 1
+        },
+        {
+          "title": "3D: a scene that draws words (the cassette) is rebuilt once in the new language, while the dialog and its state stay",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-e1f19b3a583755266554",
+          "file": "i18n-switch.spec.ts",
+          "line": 658,
+          "column": 1
+        },
+        {
+          "title": "3D: a scene without words (the everlasting flower) is not rebuilt: it keeps running through the switch",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "d227bf351cec67de47fe-be8a80244f892b06e378",
+          "file": "i18n-switch.spec.ts",
+          "line": 677,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "letter-refinement.spec.ts",
+      "file": "letter-refinement.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "letter reduced motion: open, close, replay, skip and focus return",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5fe80a6bb4c27f341d32-90afa9eeb07d2bf1b7ff",
+          "file": "letter-refinement.spec.ts",
+          "line": 3,
+          "column": 1
+        },
+        {
+          "title": "letter normal motion: text waits for paper, interruption, replay and reverse close",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5fe80a6bb4c27f341d32-5605154b9f470bbbd2e7",
+          "file": "letter-refinement.spec.ts",
+          "line": 10,
+          "column": 1
+        },
+        {
+          "title": "letter mobile and unavailable WebGL: skip retains actual text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5fe80a6bb4c27f341d32-425bd8355b7270a448e1",
+          "file": "letter-refinement.spec.ts",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "mobile real 3D: responsive framing and replay cleanup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "5fe80a6bb4c27f341d32-16f6001fe5fa6a663003",
+          "file": "letter-refinement.spec.ts",
+          "line": 18,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "native-gifts.spec.ts",
+      "file": "native-gifts.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Eternal rose: native mesh renders and original controls remain usable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "fe326ce3ec299b7d5a72-bf4e3d888d4dd9c3fe4f",
+          "file": "native-gifts.spec.ts",
+          "line": 3,
+          "column": 3
+        },
+        {
+          "title": "Crown: native mesh renders and original controls remain usable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "fe326ce3ec299b7d5a72-873868e4f801ed1eb1ff",
+          "file": "native-gifts.spec.ts",
+          "line": 3,
+          "column": 3
+        },
+        {
+          "title": "Portal: native mesh renders and original controls remain usable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "fe326ce3ec299b7d5a72-d0cb195af0e4101c6ad1",
+          "file": "native-gifts.spec.ts",
+          "line": 3,
+          "column": 3
+        }
+      ]
+    },
+    {
+      "title": "pack-two-verbatim.spec.ts",
+      "file": "pack-two-verbatim.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "counts match the PDF",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9be39def73a0ced9da8c-bed62b4bfb7de5ad542b",
+          "file": "pack-two-verbatim.spec.ts",
+          "line": 33,
+          "column": 1
+        },
+        {
+          "title": "every letter string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9be39def73a0ced9da8c-07d84c8d3d07b1c74a3d",
+          "file": "pack-two-verbatim.spec.ts",
+          "line": 46,
+          "column": 3
+        },
+        {
+          "title": "every openWhen string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9be39def73a0ced9da8c-b53111bb1782990f39e8",
+          "file": "pack-two-verbatim.spec.ts",
+          "line": 46,
+          "column": 3
+        },
+        {
+          "title": "every chapters string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9be39def73a0ced9da8c-431ade57408208762daf",
+          "file": "pack-two-verbatim.spec.ts",
+          "line": 46,
+          "column": 3
+        },
+        {
+          "title": "every reasons string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9be39def73a0ced9da8c-12dc69b634edfc26e786",
+          "file": "pack-two-verbatim.spec.ts",
+          "line": 46,
+          "column": 3
+        },
+        {
+          "title": "every wishSeeds string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9be39def73a0ced9da8c-000685daca85e8ec3bbc",
+          "file": "pack-two-verbatim.spec.ts",
+          "line": 46,
+          "column": 3
+        },
+        {
+          "title": "every postcards string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9be39def73a0ced9da8c-10083740fefaafd01960",
+          "file": "pack-two-verbatim.spec.ts",
+          "line": 46,
+          "column": 3
+        },
+        {
+          "title": "every areas string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9be39def73a0ced9da8c-4f1ca69131cecbf0807e",
+          "file": "pack-two-verbatim.spec.ts",
+          "line": 46,
+          "column": 3
+        },
+        {
+          "title": "every dedications string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9be39def73a0ced9da8c-3df59c4a1684a959e94b",
+          "file": "pack-two-verbatim.spec.ts",
+          "line": 46,
+          "column": 3
+        },
+        {
+          "title": "every microcopy string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9be39def73a0ced9da8c-15f91886172d764102c6",
+          "file": "pack-two-verbatim.spec.ts",
+          "line": 46,
+          "column": 3
+        },
+        {
+          "title": "every briefs string is in the PDF transcript, word for word",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9be39def73a0ced9da8c-fdcf3d39097e6ad84d24",
+          "file": "pack-two-verbatim.spec.ts",
+          "line": 46,
+          "column": 3
+        },
+        {
+          "title": "nothing the PDF wrote for the site (sections 01-09) was left out of packTwo.ts",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9be39def73a0ced9da8c-7eb04b9eb0ab357bfe96",
+          "file": "pack-two-verbatim.spec.ts",
+          "line": 52,
+          "column": 1
+        },
+        {
+          "title": "the main letter, the open-when letters, the chapters, the reasons and the postcards are exactly the PDF's in English and Hinglish",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9be39def73a0ced9da8c-ca0413a06fbef040b85c",
+          "file": "pack-two-verbatim.spec.ts",
+          "line": 61,
+          "column": 1
+        },
+        {
+          "title": "the owner's instruction sentences are never shown, and text shown + the instruction = the PDF's text",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "9be39def73a0ced9da8c-a19c567cc2e556fe3744",
+          "file": "pack-two-verbatim.spec.ts",
+          "line": 108,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "paper-geometry.spec.ts",
+      "file": "paper-geometry.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "paper geometry: closed thickness surface, rounded crease transport and stable width",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "ae7840f6a0db2e92c006-6aaccbb88677190e7172",
+          "file": "paper-geometry.spec.ts",
+          "line": 3,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "postcard-refinement.spec.ts",
+      "file": "postcard-refinement.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "native postcards: flip, navigation, original caption and cleanup at 1280",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b715634cb8f62d6e775a-8a842c8afc6a9b86111a",
+          "file": "postcard-refinement.spec.ts",
+          "line": 2,
+          "column": 31
+        },
+        {
+          "title": "native postcards: flip, navigation, original caption and cleanup at 390",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "b715634cb8f62d6e775a-0dce05b6913a2c43dcc4",
+          "file": "postcard-refinement.spec.ts",
+          "line": 2,
+          "column": 31
+        }
+      ]
+    },
+    {
+      "title": "scrapbook-layout.spec.ts",
+      "file": "scrapbook-layout.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Scrapbook on a phone is one page: no spine across it, from the cover onwards",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "73a8f22f5e3e90d499ee-6a8cc5cadaed6769b0e1",
+          "file": "scrapbook-layout.spec.ts",
+          "line": 22,
+          "column": 1
+        },
+        {
+          "title": "Scrapbook on a desktop: closed cover first, then a two-page spread with its spine",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "73a8f22f5e3e90d499ee-e85b1183be2c8b51a8cd",
+          "file": "scrapbook-layout.spec.ts",
+          "line": 39,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "theme-contrast.spec.ts",
+      "file": "theme-contrast.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "every colour pair of the design keeps its contrast in every theme (WCAG: 4.5 for text, 3 for large text and UI)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8d40b08637b2458c62f2-33cf282b728515217357",
+          "file": "theme-contrast.spec.ts",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Hinglish is the site's own palette (identity), English and Hindi are different palettes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8d40b08637b2458c62f2-a37a6449eb2f1d4f5ee8",
+          "file": "theme-contrast.spec.ts",
+          "line": 29,
+          "column": 1
+        },
+        {
+          "title": "the three moods: violet + gold, rose + coral + amber, indigo + marigold + ivory",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8d40b08637b2458c62f2-8ef48f564e40c82ef761",
+          "file": "theme-contrast.spec.ts",
+          "line": 41,
+          "column": 1
+        },
+        {
+          "title": "surfaces stay light and text stays dark in every theme (a theme never turns paper into night or ink into paper)",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8d40b08637b2458c62f2-dcdf7c07ec424ae21b86",
+          "file": "theme-contrast.spec.ts",
+          "line": 64,
+          "column": 1
+        },
+        {
+          "title": "every themable colour of the style sheets is a token with a fallback, so the page works without JavaScript",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "8d40b08637b2458c62f2-6742a92f89b5f4651222",
+          "file": "theme-contrast.spec.ts",
+          "line": 73,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "ultra-access.spec.ts",
+      "file": "ultra-access.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "gift WebGL failure: original secret letter remains available by Skip",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a0012df6a8be51a4d1ee-6e516d6b964fa4bd9c2c",
+          "file": "ultra-access.spec.ts",
+          "line": 2,
+          "column": 1
+        },
+        {
+          "title": "normal motion gift renderer pauses offscreen and resumes; jar controls remain responsive",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a0012df6a8be51a4d1ee-1e5a040a2cd74e469e94",
+          "file": "ultra-access.spec.ts",
+          "line": 5,
+          "column": 1
+        },
+        {
+          "title": "treasure puzzle solves with accessible controls and real chest state changes",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a0012df6a8be51a4d1ee-5f457d0cef1af1258a8b",
+          "file": "ultra-access.spec.ts",
+          "line": 8,
+          "column": 1
+        },
+        {
+          "title": "high-tier jar reflections/transmission initialize without console errors",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "a0012df6a8be51a4d1ee-b81d55c618d27bda9de9",
+          "file": "ultra-access.spec.ts",
+          "line": 11,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "ultra-gifts.spec.ts",
+      "file": "ultra-gifts.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "gift 1: letter native world, primary action, replay and cleanup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "956b8cb8577771da7bbd-86644d0ebe5f78cab7f9",
+          "file": "ultra-gifts.spec.ts",
+          "line": 6,
+          "column": 43
+        },
+        {
+          "title": "gift 2: jar native world, primary action, replay and cleanup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "956b8cb8577771da7bbd-e8a2ca7a42c0886c9c8a",
+          "file": "ultra-gifts.spec.ts",
+          "line": 6,
+          "column": 43
+        },
+        {
+          "title": "gift 3: flower native world, primary action, replay and cleanup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "956b8cb8577771da7bbd-7fb68e1eb23f4586e055",
+          "file": "ultra-gifts.spec.ts",
+          "line": 6,
+          "column": 43
+        },
+        {
+          "title": "gift 4: universe native world, primary action, replay and cleanup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "956b8cb8577771da7bbd-de4f720c5c58691ff17f",
+          "file": "ultra-gifts.spec.ts",
+          "line": 6,
+          "column": 43
+        },
+        {
+          "title": "gift 5: cassette native world, primary action, replay and cleanup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "956b8cb8577771da7bbd-aa5d20ba109c58763ad6",
+          "file": "ultra-gifts.spec.ts",
+          "line": 6,
+          "column": 43
+        },
+        {
+          "title": "gift 6: cinema native world, primary action, replay and cleanup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "956b8cb8577771da7bbd-637066a36edbacdea23f",
+          "file": "ultra-gifts.spec.ts",
+          "line": 6,
+          "column": 43
+        },
+        {
+          "title": "gift 7: wishes native world, primary action, replay and cleanup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "956b8cb8577771da7bbd-5d2e2e8b4f5b17df9ae2",
+          "file": "ultra-gifts.spec.ts",
+          "line": 6,
+          "column": 43
+        },
+        {
+          "title": "gift 8: crown native world, primary action, replay and cleanup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "956b8cb8577771da7bbd-d44a88408d9f7dd17481",
+          "file": "ultra-gifts.spec.ts",
+          "line": 6,
+          "column": 43
+        },
+        {
+          "title": "gift 9: cabinet native world, primary action, replay and cleanup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "956b8cb8577771da7bbd-4b19a1b3e8b7a53f5130",
+          "file": "ultra-gifts.spec.ts",
+          "line": 6,
+          "column": 43
+        },
+        {
+          "title": "gift 10: machine native world, primary action, replay and cleanup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "956b8cb8577771da7bbd-cf5fee3f5d0ab257f43c",
+          "file": "ultra-gifts.spec.ts",
+          "line": 6,
+          "column": 43
+        },
+        {
+          "title": "gift 11: adventure native world, primary action, replay and cleanup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "956b8cb8577771da7bbd-d44588bc001b2ce84377",
+          "file": "ultra-gifts.spec.ts",
+          "line": 6,
+          "column": 43
+        },
+        {
+          "title": "gift 12: vinyl native world, primary action, replay and cleanup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "956b8cb8577771da7bbd-21cbeeb495c1bc300025",
+          "file": "ultra-gifts.spec.ts",
+          "line": 6,
+          "column": 43
+        },
+        {
+          "title": "gift 13: mirror native world, primary action, replay and cleanup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "956b8cb8577771da7bbd-891e12de7e0d1675b9a5",
+          "file": "ultra-gifts.spec.ts",
+          "line": 6,
+          "column": 43
+        },
+        {
+          "title": "gift 14: coupons native world, primary action, replay and cleanup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "956b8cb8577771da7bbd-e0c8103bc6629131adec",
+          "file": "ultra-gifts.spec.ts",
+          "line": 6,
+          "column": 43
+        },
+        {
+          "title": "gift 15: hope-tree native world, primary action, replay and cleanup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "956b8cb8577771da7bbd-2852f38d0f6750c8707b",
+          "file": "ultra-gifts.spec.ts",
+          "line": 6,
+          "column": 43
+        },
+        {
+          "title": "gift 16: treasure native world, primary action, replay and cleanup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "956b8cb8577771da7bbd-dd69ec5021c2c87cbdf0",
+          "file": "ultra-gifts.spec.ts",
+          "line": 6,
+          "column": 43
+        },
+        {
+          "title": "gift 17: portal native world, primary action, replay and cleanup",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "956b8cb8577771da7bbd-8c87456ff6759db7e09d",
+          "file": "ultra-gifts.spec.ts",
+          "line": 6,
+          "column": 43
+        },
+        {
+          "title": "gallery uses seventeen native previews and no per-tile WebGL canvases",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "956b8cb8577771da7bbd-f31171c6f0c302433d41",
+          "file": "ultra-gifts.spec.ts",
+          "line": 20,
+          "column": 1
+        },
+        {
+          "title": "mobile jar and reduced-motion renderer stay stable, no layout overflow",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 360000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [],
+              "status": "skipped"
+            }
+          ],
+          "id": "956b8cb8577771da7bbd-97ddce46cb6b1d85e5a5",
+          "file": "ultra-gifts.spec.ts",
+          "line": 21,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-11-15T05:07:45.894Z",
+    "duration": 2818.258,
+    "expected": 0,
+    "skipped": 152,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

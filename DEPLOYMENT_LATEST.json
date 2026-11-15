@@ -1,0 +1,21 @@
+{
+  "id": "dpl_HKNiufj8nWEQBppbDDK21iEskN8A",
+  "url": "the-world-of-you-birthday-storybook-kogt6jxls.vercel.app",
+  "readyState": "READY",
+  "target": "production",
+  "alias": [
+    "the-world-of-you-birthday-storybook.vercel.app"
+  ],
+  "uploadedFiles": 80,
+  "previousProduction": "dpl_HjUU7Q3s5RWL4abb6cfEtKTE7RDe",
+  "readySubstate": "PROMOTED",
+  "verification": {
+    "url": "https://the-world-of-you-birthday-storybook.vercel.app",
+    "latestEntry": "/assets/index-DCop_qA0.js",
+    "http": 200,
+    "garden3DRendered": true,
+    "wishSelectionPassed": true,
+    "pageErrors": [],
+    "scope": "Desktop Chromium smoke only; not full hosted regression or hardware microphone testing"
+  }
+}

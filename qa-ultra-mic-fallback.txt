@@ -1,0 +1,35 @@
+
+Running 1 test using 1 worker
+
+  ✘  1 tests/cinematic.spec.ts:93:1 › synthetic broadband input triggers calibrated mic and stops tracks (27.5s)
+
+
+  1) tests/cinematic.spec.ts:93:1 › synthetic broadband input triggers calibrated mic and stops tracks 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: locator('#birthday-cake').locator('.cake-ritual__status')
+    Expected substring: "Candles out"
+    Received string:    "The candles are glowing.Hold a wish quietly. It belongs to you."
+    Timeout: 22000ms
+
+    Call log:
+      - Expect "toContainText" locator('#birthday-cake').locator('.cake-ritual__status') with timeout 22000ms
+      - waiting for locator('#birthday-cake').locator('.cake-ritual__status')
+        18 × locator resolved to <div aria-live="polite" aria-atomic="true" class="cake-ritual__status">…</div>
+           - unexpected value "The candles are glowing.Hold a wish quietly. It belongs to you."
+
+
+      108 |   await cake.getByRole("button", { name: "Skip to finished cake" }).click(); await cake.getByRole("button", { name: "Light the candles", exact: true }).click();
+      109 |   await cake.getByRole("button", { name: "Enable microphone for this wish" }).click();
+    > 110 |   await expect(cake.locator(".cake-ritual__status")).toContainText("Candles out", { timeout: 22000 });
+          |                                                      ^
+      111 |   expect(await page.evaluate(() => (window as unknown as { stoppedTracks: number }).stoppedTracks)).toBe(1);
+      112 |   console.log("Synthetic mic graphics fallback:", await page.locator("[data-graphics-failure]").count());
+      113 | });
+        at /home/user/chronos/tests/cinematic.spec.ts:110:54
+
+    Error Context: test-results/cinematic-synthetic-broadb-4100f-brated-mic-and-stops-tracks/error-context.md
+
+  1 failed
+    tests/cinematic.spec.ts:93:1 › synthetic broadband input triggers calibrated mic and stops tracks 

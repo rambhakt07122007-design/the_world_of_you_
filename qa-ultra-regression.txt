@@ -1,0 +1,9 @@
+
+Running 25 tests using 1 worker
+
+  ✓   1 tests/cinematic.spec.ts:8:1 › airflow classifier rejects quiet, tonal and low-band signals (87ms)
+  ✓   2 tests/cinematic.spec.ts:15:1 › garden: 3D rendering, ten wishes, planting, replay and removal (54.5s)
+  ✓   3 tests/cinematic.spec.ts:35:1 › cake: all baking stages, light, manual wish/blowout and replay (38.8s)
+  ✓   4 tests/cinematic.spec.ts:52:1 › letters: folded paper renders; open, fold, reopen, escape and focus return (37.8s)
+  ✓   5 tests/cinematic.spec.ts:82:1 › microphone denial is recoverable; manual fallback still works (18.2s)
+  ✘   6 tests/cinematic.spec.ts:93:1 › synthetic broadband input triggers calibrated mic and stops tracks (32.1s)

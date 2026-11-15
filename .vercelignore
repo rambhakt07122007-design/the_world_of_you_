@@ -1,0 +1,12 @@
+# Keep design docs and QA screenshots out of the deployment upload; they remain in the workspace.
+docs/
+*.md
+
+# Legacy one-off export; the current deployment is the Vite dist build.
+vercel-upload/
+
+# Local tooling/build output.
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo

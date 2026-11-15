@@ -1,0 +1,5 @@
+{
+  "errors": [],
+  "liveDialog": "GIFT 02 OF 17 · REASON JAR\n\nA Jar of Reasons\n\nSeventeen editable notes, waiting for owner-written reasons.\n\n17 NOTES\nNOTE 01 / 17\n\nThis note is waiting for an owner-written reason.\n\nDraw another note\nShuffle the jar\nRead all 17\n\nAll 17 reason slots are editable in src/content/giftsContent.ts; they remain blank until the owner writes them.\n\n↻\nReset the jar\nEach gift opens independently and can be replayed.",
+  "localTriangles": "11184"
+}

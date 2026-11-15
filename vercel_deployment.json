@@ -1,0 +1,59 @@
+{
+  "note": "Non-secret record of the Vercel deployment made on 2026-11-11. The Vercel token that was pasted in chat is NOT stored here or anywhere in the workspace.",
+  "project": {
+    "name": "the-world-of-you-birthday-storybook",
+    "id": "prj_VnmOCVeJbHhm1AOLCrnnqEiG51Pw",
+    "team": "rambhakt07122007-designs-projects",
+    "teamId": "team_hwGWq25QJRO4DfOYoEFKEzZ3",
+    "reusedExistingProject": true,
+    "settingsUsed": {
+      "framework": "vite",
+      "installCommand": "npm ci",
+      "buildCommand": "npm run build",
+      "outputDirectory": "dist",
+      "nodeVersion": "26.x (project setting, unchanged)"
+    },
+    "settingsChangedByMe": "none"
+  },
+  "deployment": {
+    "id": "dpl_ikhTHmuA2tnmTHyAEBP6gvLKoDWt",
+    "target": "production",
+    "state": "READY / PROMOTED",
+    "createdUtc": "2026-11-11T05:29:15Z",
+    "readyUtc": "2026-11-11T05:29:35Z",
+    "uniqueUrl": "https://the-world-of-you-birthday-storybook-n6x8c5nk0.vercel.app",
+    "productionAliases": [
+      "https://the-world-of-you-birthday-storybook.vercel.app",
+      "https://the-world-of-you-birthday-sto-rambhakt07122007-designs-projects.vercel.app"
+    ],
+    "inspector": "https://vercel.com/rambhakt07122007-designs-projects/the-world-of-you-birthday-storybook/ikhTHmuA2tnmTHyAEBP6gvLKoDWt",
+    "method": "Vercel CLI 65.14.0 upload (vercel deploy --prod --force), remote build on Vercel",
+    "sourceTree": "git archive of local commit 0f16a01e782f56989d6017fd137dd9332c0b39ab (not yet on GitHub), minus the 10 MB source ZIP, qa/ and qa-* artifacts; .vercelignore additionally excluded docs/, *.md, vercel-upload/",
+    "meta": {
+      "migrationCommit": "0f16a01e782f56989d6017fd137dd9332c0b39ab",
+      "migrationSource": "the-world-of-you-repo-HEAD"
+    }
+  },
+  "rollbackReference": {
+    "previousProductionDeployment": "dpl_36qdggRECB4MYmeALPoMgeM5Poy5",
+    "howTo": "Vercel dashboard > project > Deployments > pick that deployment > Promote / Instant Rollback"
+  },
+  "remoteBuild": {
+    "install": "npm ci: 97 packages, 0 vulnerabilities",
+    "build": "tsc -b && vite build: 2134 modules transformed, built in 5.48s, Build Completed in 17s",
+    "errors": 0,
+    "warnings": "standard Vite >500 kB chunk advisory (letter-D9nCpsSk.js 765.72 kB)",
+    "logs": ["logs/vercel-deploy.log", "logs/vercel-build-events.log"]
+  },
+  "verification": {
+    "vercelApi": "readyState READY, readySubstate PROMOTED, project production target == this deployment, aliasError null",
+    "http": [
+      "GET / on production alias: 200, byte-identical to locally built dist/index.html and identical to what was live before this deploy",
+      "55/55 files of the local production build (dist/, excl. .md/.gitkeep) served live and byte-identical",
+      "public/ assets served identically: 27/27 webp, 7/7 glb, 6/6 woff2, 6/6 txt, 5/5 .gitkeep",
+      "public/assets/fonts/README.md and public/assets/models/README.md return 404 on purpose: .vercelignore excludes *.md; docs only, not referenced by the app",
+      "negative control: unknown path returns 404"
+    ],
+    "notTested": "No real-browser (WebGL / interaction) test was run from this sandbox: Chromium could not be downloaded (network policy). Live JS/CSS are byte-identical to the bundle that was already live."
+  }
+}

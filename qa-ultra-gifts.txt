@@ -1,0 +1,26 @@
+
+Running 19 tests using 1 worker
+
+  ✓   1 tests/ultra-gifts.spec.ts:3:43 › gift 1: letter native world, primary action, replay and cleanup (22.2s)
+  ✓   2 tests/ultra-gifts.spec.ts:3:43 › gift 2: jar native world, primary action, replay and cleanup (23.0s)
+  ✓   3 tests/ultra-gifts.spec.ts:3:43 › gift 3: flower native world, primary action, replay and cleanup (19.5s)
+  ✓   4 tests/ultra-gifts.spec.ts:3:43 › gift 4: universe native world, primary action, replay and cleanup (15.4s)
+  ✓   5 tests/ultra-gifts.spec.ts:3:43 › gift 5: cassette native world, primary action, replay and cleanup (17.9s)
+  ✓   6 tests/ultra-gifts.spec.ts:3:43 › gift 6: cinema native world, primary action, replay and cleanup (18.8s)
+  ✓   7 tests/ultra-gifts.spec.ts:3:43 › gift 7: wishes native world, primary action, replay and cleanup (16.8s)
+  ✓   8 tests/ultra-gifts.spec.ts:3:43 › gift 8: crown native world, primary action, replay and cleanup (17.3s)
+  ✓   9 tests/ultra-gifts.spec.ts:3:43 › gift 9: cabinet native world, primary action, replay and cleanup (26.1s)
+  ✓  10 tests/ultra-gifts.spec.ts:3:43 › gift 10: machine native world, primary action, replay and cleanup (19.6s)
+  ✓  11 tests/ultra-gifts.spec.ts:3:43 › gift 11: adventure native world, primary action, replay and cleanup (17.5s)
+  ✓  12 tests/ultra-gifts.spec.ts:3:43 › gift 12: vinyl native world, primary action, replay and cleanup (17.2s)
+  ✓  13 tests/ultra-gifts.spec.ts:3:43 › gift 13: mirror native world, primary action, replay and cleanup (20.3s)
+  ✓  14 tests/ultra-gifts.spec.ts:3:43 › gift 14: coupons native world, primary action, replay and cleanup (18.5s)
+  ✓  15 tests/ultra-gifts.spec.ts:3:43 › gift 15: hope-tree native world, primary action, replay and cleanup (22.3s)
+  ✓  16 tests/ultra-gifts.spec.ts:3:43 › gift 16: treasure native world, primary action, replay and cleanup (19.3s)
+  ✓  17 tests/ultra-gifts.spec.ts:3:43 › gift 17: portal native world, primary action, replay and cleanup (16.8s)
+  ✓  18 tests/ultra-gifts.spec.ts:17:1 › gallery uses seventeen native previews and no per-tile WebGL canvases (969ms)
+  ✓  19 tests/ultra-gifts.spec.ts:18:1 › mobile jar and reduced-motion renderer stay stable, no layout overflow (15.3s)
+
+  Slow test file: tests/ultra-gifts.spec.ts (5.7m)
+  Consider running tests from slow files in parallel. See: https://playwright.dev/docs/test-parallel
+  19 passed (5.8m)

@@ -1,0 +1,381 @@
+{
+  "sections": [
+    {
+      "id": "invitation",
+      "buttons": [
+        {
+          "name": "For Bhumiwith love, Rudra✿",
+          "disabled": false
+        },
+        {
+          "name": "Open Your Birthday Surprise",
+          "disabled": false
+        },
+        {
+          "name": "Skip the opening animation",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "garden",
+      "buttons": []
+    },
+    {
+      "id": "storybook",
+      "heading": "Scrapbook",
+      "buttons": [
+        {
+          "name": "Previous",
+          "disabled": true
+        },
+        {
+          "name": "Next page",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "timepiece",
+      "heading": "Memory Observatory",
+      "buttons": [
+        {
+          "name": "11 May 2025First connection",
+          "disabled": false
+        },
+        {
+          "name": "17 July 2025The proposal",
+          "disabled": false
+        },
+        {
+          "name": "17 NovemberBirthday marker",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "letters",
+      "heading": "Letter Room",
+      "buttons": [
+        {
+          "name": "01Bhumi,A birthday letterSOURCE LETTER",
+          "disabled": false
+        },
+        {
+          "name": "02A note for you✿A note of appreciationEMPTY · OWNER-WRITTEN",
+          "disabled": false
+        },
+        {
+          "name": "03A note for you✿A collection of little thingsEMPTY · OWNER-WRITTEN",
+          "disabled": false
+        },
+        {
+          "name": "04A note for you✿A letter for difficult daysEMPTY · OWNER-WRITTEN",
+          "disabled": false
+        },
+        {
+          "name": "05A note for you✿A future-dream letterEMPTY · OWNER-WRITTEN",
+          "disabled": false
+        },
+        {
+          "name": "",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "gallery",
+      "heading": "Memory Gallery",
+      "buttons": [
+        {
+          "name": "REAL PHOTOGOES HEREOPENA photograph to addDATE HELD BACK",
+          "disabled": false
+        },
+        {
+          "name": "REAL PHOTOGOES HEREOPENA page held openDATE HELD BACK",
+          "disabled": false
+        },
+        {
+          "name": "REAL PHOTOGOES HEREOPENAn empty PolaroidDATE HELD BACK",
+          "disabled": false
+        },
+        {
+          "name": "REAL PHOTOGOES HEREOPENA mount in reserveDATE HELD BACK",
+          "disabled": false
+        },
+        {
+          "name": "REAL PHOTOGOES HEREOPENA picture to rememberDATE HELD BACK",
+          "disabled": false
+        },
+        {
+          "name": "REAL PHOTOGOES HEREOPENThe next frameDATE HELD BACK",
+          "disabled": false
+        },
+        {
+          "name": "",
+          "disabled": false
+        },
+        {
+          "name": " Previous",
+          "disabled": false
+        },
+        {
+          "name": "Next ",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "flower-garden",
+      "heading": "Wish Garden",
+      "buttons": [
+        {
+          "name": "01Rose",
+          "disabled": false
+        },
+        {
+          "name": "02Daisy",
+          "disabled": false
+        },
+        {
+          "name": "03Tulip",
+          "disabled": false
+        },
+        {
+          "name": "04Rose",
+          "disabled": false
+        },
+        {
+          "name": "05Daisy",
+          "disabled": false
+        },
+        {
+          "name": "06Tulip",
+          "disabled": false
+        },
+        {
+          "name": "07Rose",
+          "disabled": false
+        },
+        {
+          "name": "08Daisy",
+          "disabled": false
+        },
+        {
+          "name": "09Tulip",
+          "disabled": false
+        },
+        {
+          "name": "10Rose",
+          "disabled": false
+        },
+        {
+          "name": "Plant my wish ",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "gifts",
+      "heading": "Gift Atelier",
+      "buttons": [
+        {
+          "name": "01✉Secret LetterLETTEROPEN EXPERIENCE",
+          "disabled": false
+        },
+        {
+          "name": "02✧Jar of ReasonsJAROPEN EXPERIENCE",
+          "disabled": false
+        },
+        {
+          "name": "03✿Everlasting FlowerFLOWEROPEN EXPERIENCE",
+          "disabled": false
+        },
+        {
+          "name": "04✦Little UniverseORBITOPEN EXPERIENCE",
+          "disabled": false
+        },
+        {
+          "name": "05▣Bhumi FMCASSETTEOPEN EXPERIENCE",
+          "disabled": false
+        },
+        {
+          "name": "06▤Memory CinemaCINEMAOPEN EXPERIENCE",
+          "disabled": false
+        },
+        {
+          "name": "07✧A Thousand WishesWISHESOPEN EXPERIENCE",
+          "disabled": false
+        },
+        {
+          "name": "08♛Queen’s CrownCROWNOPEN EXPERIENCE",
+          "disabled": false
+        },
+        {
+          "name": "09▱Open When…ENVELOPESOPEN EXPERIENCE",
+          "disabled": false
+        },
+        {
+          "name": "10⚙Happiness MachineMACHINEOPEN EXPERIENCE",
+          "disabled": false
+        },
+        {
+          "name": "11⌖Little AdventureMAPOPEN EXPERIENCE",
+          "disabled": false
+        },
+        {
+          "name": "12♫Music of UsVINYLOPEN EXPERIENCE",
+          "disabled": false
+        },
+        {
+          "name": "13◉Infinite MirrorMIRROROPEN EXPERIENCE",
+          "disabled": false
+        },
+        {
+          "name": "14✂Coupon BookCOUPONSOPEN EXPERIENCE",
+          "disabled": false
+        },
+        {
+          "name": "15♧Future GardenTREEOPEN EXPERIENCE",
+          "disabled": false
+        },
+        {
+          "name": "16⌕Treasure HuntKEYOPEN EXPERIENCE",
+          "disabled": false
+        },
+        {
+          "name": "17✺Ultimate SurpriseGRAND FINALEOPEN EXPERIENCE",
+          "disabled": false
+        },
+        {
+          "name": "",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "music-room",
+      "heading": "Music Lounge",
+      "buttons": [
+        {
+          "name": "",
+          "disabled": false
+        },
+        {
+          "name": "",
+          "disabled": true
+        },
+        {
+          "name": "",
+          "disabled": false
+        },
+        {
+          "name": "",
+          "disabled": false
+        },
+        {
+          "name": "01A voice note, from RudraEMPTY · ADD LOCAL FILE✿",
+          "disabled": false
+        },
+        {
+          "name": "02A song chosen by the ownerEMPTY · ADD LOCAL FILE＋",
+          "disabled": false
+        },
+        {
+          "name": "03A birthday recordingEMPTY · ADD LOCAL FILE＋",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "future-postcards",
+      "heading": "Future Postcards",
+      "buttons": [
+        {
+          "name": "IMAGINED · 01A winter not yet indexedA mountain morningSomewhere cold and quiet, where the air does half the talking. (Editable — keep only if it is a real shared hope.)OPEN POSTCARD",
+          "disabled": false
+        },
+        {
+          "name": "IMAGINED · 02When the timing is kindThe sea at blue hourThat twenty-minute sky that makes everyone honest. (Editable.)OPEN POSTCARD",
+          "disabled": false
+        },
+        {
+          "name": "IMAGINED · 03An ordinary weekend, somedayA city we haven't namedGetting lost on purpose, finding the coffee by accident. (Editable.)OPEN POSTCARD",
+          "disabled": false
+        },
+        {
+          "name": "IMAGINED · 04The long recordHome, whatever shapeNot a plan, never a pressure — just a door I'd like to keep in the drawing. (Editable.)OPEN POSTCARD",
+          "disabled": false
+        },
+        {
+          "name": "",
+          "disabled": false
+        }
+      ]
+    },
+    {
+      "id": "birthday-cake",
+      "heading": "Birthday Ballroom",
+      "buttons": [
+        {
+          "name": "01Gather",
+          "disabled": false
+        },
+        {
+          "name": "02Mix",
+          "disabled": false
+        },
+        {
+          "name": "03Bake",
+          "disabled": false
+        },
+        {
+          "name": "04Decorate",
+          "disabled": false
+        },
+        {
+          "name": " Previous",
+          "disabled": true
+        },
+        {
+          "name": "Next step",
+          "disabled": false
+        },
+        {
+          "name": "Skip to finished cake",
+          "disabled": false
+        },
+        {
+          "name": "Enable microphone for this wish",
+          "disabled": true
+        },
+        {
+          "name": " Light the candles",
+          "disabled": true
+        },
+        {
+          "name": " Make a wish",
+          "disabled": true
+        }
+      ]
+    },
+    {
+      "id": "finale",
+      "heading": "Happy Birthday,\nBhumi.",
+      "buttons": [
+        {
+          "name": " Replay the celebration",
+          "disabled": false
+        },
+        {
+          "name": " Replay Experience",
+          "disabled": false
+        }
+      ]
+    }
+  ],
+  "dialog": "THE EXISTING LETTER\n\nThe Last Letter\nTHE WORLD OF YOU / THE WRITING DESK\nDetail\nLow\nMedium\nHigh\nReal-time 3D ready\nUnseal and unfold the letter\nReset paper\n\nLetter folded. Open it to read the message.",
+  "errors": [],
+  "mobileOverflow": false,
+  "limits": "Scrolled every chapter, inventoried enabled controls, opened first letter; not every gift or audio interaction exercised in this audit."
+}

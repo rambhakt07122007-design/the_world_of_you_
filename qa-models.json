@@ -1,0 +1,37 @@
+[
+  {
+    "file": "cake.glb",
+    "bytes": 371836,
+    "validHeader": true
+  },
+  {
+    "file": "portal.glb",
+    "bytes": 175348,
+    "validHeader": true
+  },
+  {
+    "file": "letter-desk.glb",
+    "bytes": 452160,
+    "validHeader": true
+  },
+  {
+    "file": "garden.glb",
+    "bytes": 1541248,
+    "validHeader": true
+  },
+  {
+    "file": "crown.glb",
+    "bytes": 398944,
+    "validHeader": true
+  },
+  {
+    "file": "observatory.glb",
+    "bytes": 423504,
+    "validHeader": true
+  },
+  {
+    "file": "eternal-rose.glb",
+    "bytes": 131852,
+    "validHeader": true
+  }
+]

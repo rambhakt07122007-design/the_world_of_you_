@@ -1,0 +1,24 @@
+
+> the-world-of-you-birthday-storybook@1.0.0 build
+> tsc -b && vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 2134 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                             1.74 kB │ gzip:   0.78 kB
+dist/assets/index-D38dK0GU.css            176.71 kB │ gzip:  40.16 kB
+dist/assets/runtime-C4Gn4NhN.js            16.59 kB │ gzip:   7.56 kB
+dist/assets/ScrollTrigger-BrDuEirF.js      43.55 kB │ gzip:  18.11 kB
+dist/assets/index.es-D6LUZaLv.js           45.14 kB │ gzip:  10.98 kB
+dist/assets/index-D4-8ALNT.js              70.43 kB │ gzip:  27.68 kB
+dist/assets/NativeGiftCanvas-XmlTDVT1.js  206.73 kB │ gzip:  67.98 kB
+dist/assets/index-Dz8BPSaR.js             350.64 kB │ gzip: 107.53 kB
+dist/assets/letter-D9nCpsSk.js            765.72 kB │ gzip: 198.44 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 6.81s

@@ -1,0 +1,8 @@
+
+Running 3 tests using 1 worker
+
+  ✓  1 tests/native-gifts.spec.ts:3:3 › Eternal rose: native mesh renders and original controls remain usable (24.5s)
+  ✓  2 tests/native-gifts.spec.ts:3:3 › Crown: native mesh renders and original controls remain usable (22.6s)
+  ✓  3 tests/native-gifts.spec.ts:3:3 › Portal: native mesh renders and original controls remain usable (19.4s)
+
+  3 passed (1.3m)

@@ -1,0 +1,12 @@
+[
+  {
+    "file": "src/content/chronosContent.ts",
+    "unchanged": true,
+    "sha256": "15377da72d5eadf7acd635285dec75c4b0a852fe9f4ac66e7b9eeaa3a637d573"
+  },
+  {
+    "file": "src/content/giftsContent.ts",
+    "unchanged": true,
+    "sha256": "242b5c41351c55dbeb4304cbcdfd928f64f86a32d6eff26f6ac484f2fb3f2332"
+  }
+]

@@ -1,0 +1,49 @@
+
+Running 19 tests using 1 worker
+
+  ✓   1 tests/cinematic.spec.ts:8:1 › airflow classifier rejects quiet, tonal and low-band signals (98ms)
+  ✓   2 tests/cinematic.spec.ts:15:1 › garden: 3D rendering, ten wishes, planting, replay and removal (1.1m)
+  ✓   3 tests/cinematic.spec.ts:35:1 › cake: all baking stages, light, manual wish/blowout and replay (21.1s)
+  ✓   4 tests/cinematic.spec.ts:52:1 › letters: folded paper renders; open, fold, reopen, escape and focus return (30.1s)
+  ✘   5 tests/cinematic.spec.ts:66:1 › all 17 existing gifts open, run their primary control, reset and close (3.0m)
+  ✓   6 tests/cinematic.spec.ts:82:1 › microphone denial is recoverable; manual fallback still works (14.2s)
+  ✓   7 tests/cinematic.spec.ts:93:1 › synthetic broadband input triggers calibrated mic and stops tracks (14.7s)
+  ✓   8 tests/cinematic.spec.ts:114:1 › responsive portrait/landscape/tablet: no horizontal overflow, keyboard wish control (31.1s)
+  ✓   9 tests/cinematic.spec.ts:124:1 › WebGL failure leaves garden content and planting available (7.0s)
+  ✓  10 tests/cinematic.spec.ts:135:1 › normal-motion shader and bloom render; inactive garden stops rendering (33.3s)
+  ✓  11 tests/cinematic.spec.ts:152:1 › cancelling a pending microphone permission stops a late stream (22.6s)
+  ✓  12 tests/cinematic.spec.ts:166:1 › all twelve chapter anchors exist and all local anchor links resolve (3.5s)
+  ✓  13 tests/letter-refinement.spec.ts:3:1 › letter reduced motion: open, close, replay, skip and focus return (20.4s)
+  ✓  14 tests/letter-refinement.spec.ts:10:1 › letter normal motion: text waits for paper, interruption, replay and reverse close (49.3s)
+  ✓  15 tests/letter-refinement.spec.ts:14:1 › letter mobile and unavailable WebGL: skip retains actual text (6.9s)
+  ✓  16 tests/letter-refinement.spec.ts:18:1 › mobile real 3D: responsive framing and replay cleanup (13.0s)
+  ✓  17 tests/native-gifts.spec.ts:3:3 › Eternal rose: native mesh renders and original controls remain usable (20.8s)
+  ✓  18 tests/native-gifts.spec.ts:3:3 › Crown: native mesh renders and original controls remain usable (23.9s)
+  ✓  19 tests/native-gifts.spec.ts:3:3 › Portal: native mesh renders and original controls remain usable (22.5s)
+
+
+  1) tests/cinematic.spec.ts:66:1 › all 17 existing gifts open, run their primary control, reset and close 
+
+    Test timeout of 180000ms exceeded.
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('dialog[open]')
+    Expected: 0
+    Received: undefined
+
+
+      75 |     if (await replay.count()) await replay.click();
+      76 |     await dialog.getByRole("button", { name: "Close dialog", exact: true }).click();
+    > 77 |     await expect(page.locator("dialog[open]")).toHaveCount(0);
+         |                                                ^
+      78 |     await expect(page.locator("dialog canvas")).toHaveCount(0);
+      79 |   }
+      80 | });
+        at /home/user/chronos/tests/cinematic.spec.ts:77:48
+
+    Error Context: test-results/cinematic-all-17-existing--b1a83-ary-control-reset-and-close/error-context.md
+
+  1 failed
+    tests/cinematic.spec.ts:66:1 › all 17 existing gifts open, run their primary control, reset and close 
+  18 passed (9.8m)

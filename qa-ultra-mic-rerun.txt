@@ -1,0 +1,70 @@
+
+Running 1 test using 1 worker
+
+  ✘  1 tests/cinematic.spec.ts:93:1 › synthetic broadband input triggers calibrated mic and stops tracks (21.2s)
+
+
+  1) tests/cinematic.spec.ts:93:1 › synthetic broadband input triggers calibrated mic and stops tracks 
+
+    Error: expect(received).toEqual(expected) // deep equality
+
+    - Expected  -  1
+    + Received  + 42
+
+    - Array []
+    + Array [
+    +   "THREE.WebGLProgram: Shader Error 0 - VALIDATE_STATUS false
+    +
+    + Material Name: 
+    + Material Type: MeshStandardMaterial
+    +
+    + Program Info Log: 
+    +
+    + ",
+    +   "THREE.WebGLProgram: Shader Error 1282 - VALIDATE_STATUS false
+    +
+    + Material Name: 
+    + Material Type: MeshStandardMaterial
+    +
+    + Program Info Log: 
+    +
+    + ",
+    +   "THREE.WebGLProgram: Shader Error 1282 - VALIDATE_STATUS false
+    +
+    + Material Name: 
+    + Material Type: MeshPhysicalMaterial
+    +
+    + Program Info Log: 
+    +
+    + ",
+    +   "THREE.WebGLProgram: Shader Error 1282 - VALIDATE_STATUS false
+    +
+    + Material Name: 
+    + Material Type: MeshStandardMaterial
+    +
+    + Program Info Log: 
+    +
+    + ",
+    +   "THREE.WebGLProgram: Shader Error 1282 - VALIDATE_STATUS false
+    +
+    + Material Name: 
+    + Material Type: ShaderMaterial
+    +
+    + Program Info Log: 
+    +
+    + ",
+    + ]
+
+      4 | const errors: string[] = [];
+      5 | test.beforeEach(async ({ page }) => { errors.length = 0; page.on("pageerror", (error) => errors.push(error.message)); page.on("console", (message) => { if (message.type() === "error") errors.push(message.text()); }); });
+    > 6 | test.afterEach(async () => { expect(errors).toEqual([]); });
+        |                                             ^
+      7 |
+      8 | test("airflow classifier rejects quiet, tonal and low-band signals", () => {
+      9 |   expect(isBlowLike(0.01, 0.01, 0.5, 0.01)).toBe(false);
+        at /home/user/chronos/tests/cinematic.spec.ts:6:45
+
+    Error Context: test-results/cinematic-synthetic-broadb-4100f-brated-mic-and-stops-tracks/error-context.md
+
+  1 failed
+    tests/cinematic.spec.ts:93:1 › synthetic broadband input triggers calibrated mic and stops tracks 

@@ -1,0 +1,19 @@
+
+Running 14 tests using 1 worker
+
+  ✓   1 tests/letter-refinement.spec.ts:3:1 › letter reduced motion: open, close, replay, skip and focus return (19.1s)
+  ✓   2 tests/letter-refinement.spec.ts:10:1 › letter normal motion: text waits for paper, interruption, replay and reverse close (49.9s)
+  ✓   3 tests/letter-refinement.spec.ts:14:1 › letter mobile and unavailable WebGL: skip retains actual text (7.4s)
+  ✓   4 tests/letter-refinement.spec.ts:18:1 › mobile real 3D: responsive framing and replay cleanup (12.2s)
+  ✓   5 tests/native-gifts.spec.ts:3:3 › Eternal rose: native mesh renders and original controls remain usable (24.1s)
+  ✓   6 tests/native-gifts.spec.ts:3:3 › Crown: native mesh renders and original controls remain usable (32.2s)
+  ✓   7 tests/native-gifts.spec.ts:3:3 › Portal: native mesh renders and original controls remain usable (28.1s)
+  ✓   8 tests/paper-geometry.spec.ts:3:1 › paper geometry: closed thickness surface, rounded crease transport and stable width (218ms)
+  ✓   9 tests/postcard-refinement.spec.ts:2:31 › native postcards: flip, navigation, original caption and cleanup at 1280 (24.4s)
+  ✓  10 tests/postcard-refinement.spec.ts:2:31 › native postcards: flip, navigation, original caption and cleanup at 390 (12.6s)
+  ✓  11 tests/ultra-access.spec.ts:2:1 › gift WebGL failure: original secret letter remains available by Skip (12.6s)
+  ✓  12 tests/ultra-access.spec.ts:5:1 › normal motion gift renderer pauses offscreen and resumes; jar controls remain responsive (41.0s)
+  ✓  13 tests/ultra-access.spec.ts:8:1 › treasure puzzle solves with accessible controls and real chest state changes (26.7s)
+  ✓  14 tests/ultra-access.spec.ts:11:1 › high-tier jar reflections/transmission initialize without console errors (27.1s)
+
+  14 passed (5.3m)
